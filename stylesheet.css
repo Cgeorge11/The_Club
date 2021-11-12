@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap'); /*font */
+
+:root{
+    background-color: honeydew;
+}
+
+*{
+    font-family:'Nunito', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    
+
+}
+
+html{
+
+font-size:62.5%;
+overflow: hidden;
+scroll-padding-top:5.5rem;
+scroll-behavior:smooth;
+}
+
+header{
+    position:fixed;
+    top:0; left: 0; right:0;
+    background: #b3a8a8;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(--box-shadow);
+
+}
+
+header .logo{
+    color: #f0fff0 ;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+header .logo i{ /*logo in the left*/
+    color: #faf0ff;
+ 
+}
+
+header .navbar a{ 
+font-size: 1.7rem; 
+border-radius: .5rem ;
+padding: .5rem 1.5rem ;
+color:honeydew ; 
+
+}
